@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Studio App</title>
     
-    <script type="module" src="/index.tsx"></script> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsPDF/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://aistudiocdn.com/recharts/recharts.js"></script>
+    <script src="https://aistudiocdn.com/react-router-dom/react-router-dom.js"></script>
+
+    <style>
+      /* Styling dasar untuk mengatasi tampilan polos */
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f3f6f9; /* Warna latar belakang default */
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div> 
+    <div id="root"></div>
+    
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
