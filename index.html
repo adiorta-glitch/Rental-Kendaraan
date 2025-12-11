@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bersama Rent Car - Sistem Manajemen</title>
-    
-        <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         darkMode: 'class',
@@ -16,11 +15,10 @@
             }
           }
         }
-    </script>
-
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
-
-        <style>
+      </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <style>
       body { font-family: 'Inter', sans-serif; background-color: #f3f4f6; }
       /* Custom scrollbar for cleaner look */
       ::-webkit-scrollbar { width: 6px; height: 6px; }
@@ -32,12 +30,23 @@
       .dark ::-webkit-scrollbar-thumb { background: #475569; }
       .dark ::-webkit-scrollbar-track { background: #0f172a; }
     </style>
-    
-    </head>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "jspdf": "https://aistudiocdn.com/jspdf@^3.0.4",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1"
+  }
+}
+</script>
+</head>
   <body>
-        <div id="root"></div>
+    <div id="root"></div>
     
-    <script type="module" src="/src/main.tsx"></script> 
-    
+    <script type="module" src="/index.tsx"></script> 
   </body>
 </html>
